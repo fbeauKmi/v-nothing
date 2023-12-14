@@ -19,10 +19,10 @@ Almost nothing
 
 ## Why ? 
 _- Oh ! WTH, a 3D printer that does not print !_<br>
-_- Theres many use cases that you  does not need an extruder. Why should I use a 3d printer while I own a geetech 3D pen ? ^^_
+_- Theres many use cases that you do not need an extruder. Why should I use a 3d printer while I own a geetech 3D pen ? ^^_
 
 ## Assembly instructions
-Put all pieces together, wires as best as you can. BUT BE SERIOUS, ELECTRICITY IS A DANGEROUS THING. 
+Put all pieces together, wire as best as you can. BUT BE SERIOUS, ELECTRICITY IS A DANGEROUS THING. 
 
 ## Configuration
 Install [Raspian](https://www.raspberrypi.com/software/) + [Moonraker](https://github.com/Arksine/moonraker) + [Danger-Klipper](https://github.com/DangerKlippers/danger-klipper).
@@ -38,9 +38,16 @@ canbus_uuid: <REPLACE BY you canbus UUID>
 kinematic: None
 ```
 
-## Ok, Sound great ! Can I make a serial request if I built this 3D printer ?
+## Ok, Sound great ! How to get serial for my 3D printer ?
 _- THIS IS NOT A 3D PRINTER !_
-But sure you can do. All requests will receive as serial : **42**
+
+But to get a serial, you need to have:
+- Completed cable management.
+- A video of an air print in progress showing the complete VØ, invisible filament can be used.
+
+Your video must show all of the above as well as a view of the complete VØ, or you will be asked to provide those items before receiving a serial.
+
+After validation all requests will receive as serial : **42**
 
 ## Aknowledgements
 Thanks to the Voron Team to bring us 3D printer that can print.
